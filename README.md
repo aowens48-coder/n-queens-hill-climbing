@@ -11,6 +11,7 @@ or diagonal.
 - Detects local optima (where hill climbing gets stuck) and 
   triggers a random restart to escape them
 - Repeats until a conflict-free solution is found
+- (no Queens occupy the same row, column, or diagonal) 
 
 ## Why random restarts?
 Plain hill climbing frequently gets stuck at local optima where no 
